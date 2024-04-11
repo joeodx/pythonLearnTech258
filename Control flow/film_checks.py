@@ -1,21 +1,25 @@
-# Possible film ratings are "universal", "pg", "12", "12a", "15", "18"
-film_rating = (input("Please submit your film rating : "))
+film_age = int(input("Please enter your age and we can tell you what films are suitable for you: "))
 
-# Use and if statement to check for "universal" rating
-if film_rating == "universal":
-    print("All age groups can watch this film")
+# Check if age is suitable for "universal" rating
+if film_age < 8:
+    print("You are age groups can watch this film (Universal).")
 
-# check if film rating is "pg"
-elif film_rating == "pg":
-    print("General viewing but some scenes might be unsuitable for young children")
-# check if film rating is "12" or "12a"
-elif film_rating == "12" or film_rating == "12a":
-    print("Contains material that is not generally suitable for children aged under 12.")
-# check if film rating is "15"
-elif film_rating == "15":
+# Check for "PG" rating
+elif film_age >= 8 and film_age < 12:
+    print("General viewing but some scenes might be unsuitable for young children (PG).")
+
+# Check for "12" or "12a" rating
+elif film_age >= 12 and film_age < 15:
+    print("Contains material that is not generally suitable for children aged under 12 (12/12A).")
+
+# Check for "15" rating
+elif film_age >= 15 and film_age < 18:
     print("No one younger than 15 may see a 15 film in a cinema.")
-# check if film rating is "18"
-elif film_rating == "18":
-    print ("No one younger than 18 may see an 18 film in a cinema.")
+
+# Check for "18" rating
+elif film_age >= 18:
+    print("No one younger than 18 may see an 18 film in a cinema.")
+
+# If age doesn't fit any category
 else:
-    print("This is not a correct rating, please use universal, pg, 12, 12a, 15, 18")
+    print("There's no specific rating for your age, please consult with a parent or guardian.")

@@ -52,4 +52,59 @@ Python comes with a comprehensive standard library that provides a wide range of
 
 ![Python Libraries for Machine Learning](https://analyticsdrift.com/wp-content/uploads/2022/10/python-libraries-for-ML.jpg)
 
+## **Loops & Python...<br> What are the different types? <br>And what can we do with them?**
+
+
+Loops are control structures in programming that allow you to execute 
+a block of code repeatedly until a certain condition is met. 
+There are mainly two types of loops: for loops and while loops.
+
+*  A ```for``` loop is used when you know in advance how many times you want to execute a block of code. 
+* It typically has a predefined iteration variable that changes each time through the loop.
+```python
+languages = ['JavaScript', 'Python', 'Ruby']
+
+# Iterate over each element in the list
+for language in languages:
+    # Check if the letter 'p' exists in the string
+    if 'p' in language.lower():
+        print(language)
+
+```
+
+````python
+# Should return
+Python
+````
+* A ```while``` loop is used when you want to execute a block of code repeatedly as long as a condition is true. 
+* It keeps looping as long as the condition remains true.
+````python
+number = 1
+
+while number <= 3:
+    print(number)
+    number = number + 1
+````
+````
+# Should return
+1
+2
+3
+````
+
+
+
+Loops in Python are incredibly versatile and can be used for a variety of tasks. 
+Here are some common use cases:
+
+* Iterating over sequences: Loops can iterate over lists, tuples, strings, dictionaries, and other iterable objects.
+* Repeating a block of code: Loops allow you to execute a block of code multiple times without duplicating it.
+* Searching and filtering: Loops can be used to search for specific elements or filter out elements based on certain conditions.
+
+
+
+
+
+
+
 
