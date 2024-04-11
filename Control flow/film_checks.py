@@ -32,13 +32,18 @@ dict_data = {1: {"name": "Bronson", "money": "£0.05"},
              3: {"name": "Roscoe", "money": "£1.14"}}
 
 # 1. Under the starter code, write a loop to print double each number in the list "list_data"
-# for num in list_data:
-#     print(num * 2)
+for num in list_data:
+    print(num * 2)
 
 
 # 2. Write another loop on the next line, this one should print items inside of the "embedded_lists" list.
 # Loop to print items inside the "embedded_lists" list
 for sublist in embedded_lists:
     print(sublist)  # Print the sublist as a whole
-    for item in sublist:
-        print(item)  # Print each individual item in the sublist
+
+
+#3. Create another loop inside of the "embedded_lists" for loop to list each individual item in each list.
+   for item in sublist:
+     print(item)  # Print each individual item in the sublist
+
+
