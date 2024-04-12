@@ -21,3 +21,29 @@ while x < 10:
 # the while loop would continue indefinitely, leading to an infinite loop.
 
 
+
+# Task 4 Improving existing code with control flow
+
+# 1. The problem with this code is that even if the user is 20, they could enter "20" or "twenty".
+#    Let's standardise the input to get the age as digits
+
+# 2. The problem with this code is that even if the user is 20, they could enter "20" or "twenty".
+#   Let's standardise the input to get the age as digits...
+
+
+# SET VARIABLE user_prompt TO TRUE
+user_prompt = True
+
+# BEGINNING OF WHILE LOOP
+while user_prompt:
+    age = input("What is your age? ")
+
+    # IF STATEMENT TO CHECK IF age IS ALL DIGITS and LESS THAN OR EQUAL TO 117
+    if age.isdigit() and int(age) <= 117:
+        # SET user prompt TO FALSE
+        user_prompt = False
+    else:
+        # TELL USER THE PROBLEM WITH THEIR INPUT
+        print("Please enter a valid age in digits that is less than or equal to 117.")
+
+print(f"Your age is {age}")
