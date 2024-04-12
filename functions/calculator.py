@@ -36,9 +36,9 @@ def calculator():
     elif choice == "2":
         print(minus(num1, num2))
     elif choice == "3":
-        print("Result:", multiply(num1, num2))
+        print(multiply(num1, num2))
     elif choice == "4":
-        print("Result:", divide(num1, num2))
+        print(divide(num1, num2))
     else:
         print("Invalid Input")
 
