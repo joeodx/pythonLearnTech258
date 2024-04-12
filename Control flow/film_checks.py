@@ -14,11 +14,11 @@ elif film_age >= 12 and film_age < 15:
 
 # Check for "15" rating
 elif film_age >= 15 and film_age < 18:
-    print("You are able to watch films where no one younger than 15 may see a 15 film in a cinema.")
+    print("You are able to watch films where no one younger than 15 should be able to watch.")
 
 # Check for "18" rating
 elif film_age >= 18:
-    print("You are able to watch films where no one younger than 18 may see an 18 film in a cinema.")
+    print("You are able to watch films where no one younger than 18 should be able to watch.")
 
 # If age doesn't fit any category
 else:

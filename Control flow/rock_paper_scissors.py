@@ -1,4 +1,6 @@
-print("Welcome to Joes version of Rock-Paper-Scissors!")
+import getpass
+
+print("Welcome to Joe's version of Rock-Paper-Scissors!")
 
 player1 = input("Player 1, enter your choice (rock, paper, or scissors): ")
 player2 = input("Player 2, enter your choice (rock, paper, or scissors): ")

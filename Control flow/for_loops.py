@@ -10,36 +10,36 @@ dict_data = {1: {"name": "Bronson", "money": "£0.05"},
 for num in list_data:
     print(num * 2)
 
-
-# 2. Write another loop on the next line, this one should print items inside of the "embedded_lists" list.
+# 2. Write another loop on the next line, this one should print items  of the 'embedded_lists' list.
 # Loop to print items inside the "embedded_lists" list
+for items in embedded_lists:
+    print(items)
 
 #3. Create another loop of the "embedded_lists" for loop to list each individual item in each list.
- for sublist in embedded_lists:
-    print(sublist)  # Print the sublist as a whole.
- for item in sublist:
-    print(item)  # Print each individual item in the sublist
+for l in embedded_lists:
+    print(l)
+    for num in l:
+        print(num)  # Print each individual item in the sublist
 
 #4 Write a new loop on a new line. This one should loop through the dictionary "dict_data".
-for key in dict_data:
-    print(key, end='')
+for key in dict_data.items():
+    print(key)
 
 #5 Write another loop, this time it should use the built-in dictionary method value()
 # to print each value for each key inside the dictionary
-for value in dict_data.values():
-    print(value)
+for key,value in dict_data.items():
+    print(value.values())
 
 #6 Copy and paste your last loop on a newline. Create an embedded loop (loop inside the loop you pasted) to extract and
 # print the values within the dictionary of each item WITHIN THAT dictionary.
-for value in dict_data.values():
-    for inner_value in value.values():
-        print(inner_value)
+for key, value in dict_data.items():
+    for v in value.values():
+        print(v)
 
 #7 Write another loop to loop through the dictionary "dict data", but this time only print out the money values.
 for value in dict_data.values():
     print(value["money"])
 
-#8 Write one final loop. This loop should loop through the items in "list_data" and include a nested (indented) if statement
 # inside the loop so that each loop will check the number it is currently on to see if:
 
 for item in list_data:

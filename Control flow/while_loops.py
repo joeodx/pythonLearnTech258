@@ -7,7 +7,8 @@ x = 0
 # Create a while loop that loops while x is less than 10. Everytime the loop completes it should:
 while x < 10:
     # Print the value of x to the screen in an f-string
-    print(f"print x -> {x}")
+    print(f"print x "
+          f" {x}")
     # Increment (add 1 to x)
     x += 1
 
@@ -26,10 +27,6 @@ while x < 10:
 
 # 1. The problem with this code is that even if the user is 20, they could enter "20" or "twenty".
 #    Let's standardise the input to get the age as digits
-
-# 2. The problem with this code is that even if the user is 20, they could enter "20" or "twenty".
-#   Let's standardise the input to get the age as digits...
-
 
 # SET VARIABLE user_prompt TO TRUE
 user_prompt = True
