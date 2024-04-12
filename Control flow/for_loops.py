@@ -14,11 +14,11 @@ for num in list_data:
 # 2. Write another loop on the next line, this one should print items inside of the "embedded_lists" list.
 # Loop to print items inside the "embedded_lists" list
 
-#3. Create another loop inside of the "embedded_lists" for loop to list each individual item in each list.
-for sublist in embedded_lists:
-    print(sublist)  # Print the sublist as a whole
-   for item in sublist:
-     print(item)  # Print each individual item in the sublist
+#3. Create another loop of the "embedded_lists" for loop to list each individual item in each list.
+ for sublist in embedded_lists:
+    print(sublist)  # Print the sublist as a whole.
+ for item in sublist:
+    print(item)  # Print each individual item in the sublist
 
 #4 Write a new loop on a new line. This one should loop through the dictionary "dict_data".
 for key in dict_data:
