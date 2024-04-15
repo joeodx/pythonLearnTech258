@@ -34,7 +34,7 @@ software systems.
 
 There are a number of packages in the standard python library, but here are a few : 
 
-* random: Python's built-in module for generating random numbers and selecting random elements from lists or sequences.
+* *random*: Python's built-in module for generating random numbers and selecting random elements from lists or sequences.
 ````python
   print(random.random(1,11))
 ````
@@ -43,12 +43,12 @@ Should print random number between 1 and 10 :
 1.654
 ````
 
-* math: Python's built-in module providing mathematical functions and constants for mathematical operations.
+* *math*: Python's built-in module providing mathematical functions and constants for mathematical operations.
 ````python
   num_float = 23.66
   print(math.ceil(num_float)) # round to the closest number up
 ````
-should print : 
+should print to the terminal : 
 ````python 
 24
 ````
@@ -58,7 +58,7 @@ should print :
  working_dir = os.getcwd()
  print(f"current Working directory is: {working_dir}")
 ````
-should print the directory you are on : 
+should print the directory you are on to the terminal : 
 ````python 
 current Working directory is: C:\Users\Joe O'Donovan\Desktop\tech 258\SpartaGitHub\python_learning\scripting
 ````
