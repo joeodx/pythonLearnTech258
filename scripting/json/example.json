@@ -1,13 +1,11 @@
+
 {
-
-    "name" : "test",
-
-    "ip" : "198.168.23.45",
-
-    "country" : "United Kingdom",
-
-    "project" : "DevOps",
-
-    "website" : "spartaglobal.com"
-
+  "name": "John Doe",
+  "age": 30,
+  "isStudent": false,
+  "courses": ["Python", "DevOps"],
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown"
+  }
 }
