@@ -1,6 +1,6 @@
-# What is scripting? 
+# What is scripting in Python? 
 
-![Python Logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png)
+![Python Logo](https://i0.wp.com/build5nines.com/wp-content/uploads/2023/02/Get_Started_Python_Scripting_Featured_Image.jpg)
 
 
 Scripting refers to the process of writing scripts, which are sequences of commands that are interpreted or executed by a computer program rather than compiled into a standalone executable. Scripting is commonly used for automating tasks, controlling applications, and manipulating data.
@@ -32,15 +32,16 @@ software systems.
 
 ## What are packages in the standard python library?
 
+
 There are a number of packages in the standard python library, but here are a few : 
 
 * *random*: Python's built-in module for generating random numbers and selecting random elements from lists or sequences.
 ````python
   print(random.random(1,11))
 ````
-Should print random number between 1 and 10 : 
+Should print random number between 1 and 10 to terminal : 
 ````python 
-1.654
+5
 ````
 
 * *math*: Python's built-in module providing mathematical functions and constants for mathematical operations.
@@ -53,7 +54,7 @@ should print to the terminal :
 24
 ````
 
-* os: Python's built-in module for interacting with the operating system, allowing tasks such as file and directory manipulation, environment variables, and process management.
+* *os*: Python's built-in module for interacting with the operating system, allowing tasks such as file and directory manipulation, environment variables, and process management.
 ````python
  working_dir = os.getcwd()
  print(f"current Working directory is: {working_dir}")
@@ -63,24 +64,25 @@ should print the directory you are on to the terminal :
 current Working directory is: C:\Users\Joe O'Donovan\Desktop\tech 258\SpartaGitHub\python_learning\scripting
 ````
 
-## List Python scripts a DevOps engineer may use/create
+## A list of Python scripts a DevOps engineer may use or create
+<br>
 
-* Automated Deployment Script: A script to automate the deployment of applications or services to various environments, such as staging or production.
+* **Automated** Deployment Script : A script to automate the deployment of applications or services to various environments, such as staging or production.
+<br>
+* **Configuration** Management Script :  Script to manage configuration files across multiple servers or environments, ensuring consistency and scalability.
 
-* Configuration Management Script: Script to manage configuration files across multiple servers or environments, ensuring consistency and scalability.
+* **Monitoring** and Alerting Script : Script to monitor system metrics, logs, and application performance, and send alerts based on predefined thresholds or conditions.
 
-* Monitoring and Alerting Script: Script to monitor system metrics, logs, and application performance, and send alerts based on predefined thresholds or conditions.
+* **Backup and Restore**  Script : Script to automate the backup of critical data or configurations and restore them when needed, ensuring data integrity and disaster recovery.
 
-* Backup and Restore Script: Script to automate the backup of critical data or configurations and restore them when needed, ensuring data integrity and disaster recovery.
+* **Infrastructure Provisioning** Script :  Script to provision and configure infrastructure resources such as virtual machines, containers, or cloud services, using Infrastructure as Code (IaC) principles.
 
-* Infrastructure Provisioning Script: Script to provision and configure infrastructure resources such as virtual machines, containers, or cloud services, using Infrastructure as Code (IaC) principles.
+* **Log Analysis** Script : Script to parse and analyze log files from servers, applications, or services, identifying trends, anomalies, and potential issues.
 
-* Log Analysis Script: Script to parse and analyze log files from servers, applications, or services, identifying trends, anomalies, and potential issues.
+* **Security Compliance** Script: Script to automate security checks and compliance audits on servers, networks, and applications, ensuring adherence to security policies and standards.
 
-* Security Compliance Script: Script to automate security checks and compliance audits on servers, networks, and applications, ensuring adherence to security policies and standards.
+* **Continuous Integration/Continuous Deployment (CI/CD) Pipeline** Script: Script to automate the CI/CD pipeline, including building, testing, and deploying applications or services, integrating with version control systems and other tools.
 
-* Continuous Integration/Continuous Deployment (CI/CD) Pipeline Script: Script to automate the CI/CD pipeline, including building, testing, and deploying applications or services, integrating with version control systems and other tools.
+* **Resource Optimization** Script: Script to optimize resource usage and cost, such as automatically scaling infrastructure based on demand or identifying underutilized resources for optimization.
 
-* Resource Optimization Script: Script to optimize resource usage and cost, such as automatically scaling infrastructure based on demand or identifying underutilized resources for optimization.
-
-* Infrastructure Monitoring and Reporting Script: Script to collect and aggregate metrics and logs from various sources, generate reports, and visualize data to gain insights into system performance and usage trends.
+* **Infrastructure Monitoring and Reporting** Script: Script to collect and aggregate metrics and logs from various sources, generate reports, and visualize data to gain insights into system performance and usage trends.
