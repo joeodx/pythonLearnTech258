@@ -8,6 +8,8 @@ import math
 import os
 import sys
 import datetime
+import builtins
+import requests
 
 # import sys
 #
@@ -46,3 +48,15 @@ import datetime
 # print(sys.version)
 
 # datetime demo
+# print(f"Today's date is: {datetime.datetime.today()}")
+
+# for name in dir(builtins): # print aLL THE PYTHON PACKAGES
+#     if name[0].islower():
+#         print(name)
+
+# Requests Demos
+
+request_bbc = requests.get("https://www.bbc.co.uk")
+
+print(request_bbc.status_code) # 200 ---> okay
+print(request_bbc.content)
