@@ -10,7 +10,7 @@ and often prioritize rapid development and flexibility over performance.
 Scripting languages include Python, JavaScript, Bash, PowerShell, and many others.
 
 Scripting is widely used in various fields such as system administration, web development, data analysis, and automation. It allows users to automate repetitive tasks, customize software behavior, and glue together different software components to create integrated solutions.
-
+<br>
 ## How is it it different to programing?
 
 Scripting languages prioritize simplicity and ease of use,
@@ -29,7 +29,7 @@ software systems.
 <br>
 
 ![Scripting Language vs Programming Language](https://visionx.io/wp-content/uploads/2023/03/Scripting-Language-vs-Programming-Language-300x300.png)
-
+<br>
 ## What are packages in the standard python library?
 
 
@@ -63,6 +63,8 @@ should print the directory you are on to the terminal :
 ````python 
 current Working directory is: C:\Users\Joe O'Donovan\Desktop\tech 258\SpartaGitHub\python_learning\scripting
 ````
+
+<br>
 
 ## A list of Python scripts a DevOps engineer may use or create
 
