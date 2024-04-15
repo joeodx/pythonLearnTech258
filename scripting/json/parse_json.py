@@ -8,10 +8,13 @@ import json
 #     print(car["name"])
 #     print(car["engine"])
 
-
+# Loads example
 path_to_json = "example.json"
-json = json.load(open(path_to_json))
+json = json.loads(open(path_to_json).read())
 value = json["name"]
 
 print(value)
+
+# json. load takes a file
+# json. loads takes a string
 
