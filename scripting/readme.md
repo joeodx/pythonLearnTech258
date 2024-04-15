@@ -31,7 +31,7 @@ software systems.
 ![Scripting Language vs Programming Language](https://visionx.io/wp-content/uploads/2023/03/Scripting-Language-vs-Programming-Language-300x300.png)
 <br>
 ## What are packages in the standard python library?
-
+In Python, packages are a way of organizing related modules into a hierarchical directory structure. A package can contain multiple modules and sub-packages. Packages allow for better organization, maintainability, and scalability of Python code.
 
 There are a number of packages in the standard python library, but here are a few : 
 
@@ -63,7 +63,8 @@ should print the directory you are on to the terminal :
 ````python 
 current Working directory is: C:\Users\Joe O'Donovan\Desktop\tech 258\SpartaGitHub\python_learning\scripting
 ````
-
+There are plenty more of packages that you can us. <br>
+Check out the following link https://docs.python.org/3/library/index.html
 <br>
 
 ## A list of Python scripts a DevOps engineer may use or create
