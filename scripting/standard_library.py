@@ -14,7 +14,7 @@ import requests
 # import sys
 #
 # # random demo
-# # print(random.random())
+print(random.random())
 # # print(random.randrange(1,11)) # random number between these two numbers 1-10
 #
 # # math demo
@@ -28,10 +28,10 @@ import requests
 #
 # # os demo
 #
-# # returning current working directory
-# working_dir = os.getcwd()
-# print(f"current Working directory is: {working_dir}")
-#
+# returning current working directory
+working_dir = os.getcwd()
+print(f"current Working directory is: {working_dir}")
+
 # # get user
 # username = os.environ.get("USERNAME") or os.environ.get("USER")
 # print(f"Username is: {username}")
