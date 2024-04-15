@@ -65,7 +65,7 @@ current Working directory is: C:\Users\Joe O'Donovan\Desktop\tech 258\SpartaGitH
 ````
 
 ## A list of Python scripts a DevOps engineer may use or create
-<br>
+
 
 * **Automated** Deployment Script : A script to automate the deployment of applications or services to various environments, such as staging or production.
 <br>
