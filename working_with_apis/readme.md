@@ -92,6 +92,15 @@ Example: HTTP/1.1 200 OK
 The five most commonly used HTTP methods, or verbs, are:
 
 * **GET**: The GET method requests a representation of the specified resource. It is used to retrieve data from the server. GET requests should only retrieve data and should not have any other effect on the server's state.
+* **POST**: The POST method is used to submit data to be processed to the specified resource. It often results in the creation of a new resource on the server. POST requests can be used for various purposes, such as submitting form data, uploading files, or creating new records in a database.
+* **PUT**: The PUT method is used to update the resource at the specified URL with the new data provided in the request payload. It replaces the entire resource with the new data. If the resource does not exist, PUT can create a new resource with the provided data.
+* **DELETE**: The DELETE method is used to remove the specified resource from the server. It deletes the resource identified by the URL. DELETE requests are irreversible, meaning they permanently remove the resource from the server.
+
+These HTTP methods provide a standardized way for clients to interact with resources on the server, enabling CRUD (Create, Read, Update, Delete) operations and other actions.
+
+![picture html](https://miro.medium.com/v2/resize:fit:1358/1*g7J6M-SRwWe9YrStLj0ZyQ.png)
+
+
 
 
 
