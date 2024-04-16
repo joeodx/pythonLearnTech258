@@ -113,7 +113,23 @@ Examples of Stateful HTTP Requests:
 * **Login and Session Management**: When a user logs into a web application, the server typically creates a session for that user and stores session information (e.g., user authentication token) on the server. Subsequent requests from the same client may rely on this session information to authenticate the user and provide personalized content.
 * **Multi-step Workflows** : Some applications involve multi-step workflows where the state of the process is carried forward between requests. For example, in a multi-step form submission, the server needs to maintain the state of the form across multiple requests until the user completes the entire process.
 
+In stateful requests, the server relies on information stored from previous interactions with the client to process subsequent requests, whereas in stateless requests, each request is independent and self-contained.
 
+## What is caching?
+
+Caching is a technique used to store copies of frequently accessed or computed data in a temporary storage location called a cache. The purpose of caching is to speed up access to data by reducing the need to fetch it from the original source every time it is requested.
+
+Here's how caching works:
+* **Data Retrieval** : When a client requests data from a server, the server retrieves the data from its original source, such as a database, file system, or external API.
+* **Caching** : After retrieving the data, the server stores a copy of it in a cache. The cache can be located either on the server itself, on an intermediary device (like a proxy server or a content delivery network), or even on the client side (like in web browsers).
+* **Subsequent Requests**: If the same data is requested again in the future, instead of fetching it from the original source, the server checks the cache first. If the data is found in the cache and is still valid (i.e., not expired), the server returns the cached copy to the client without having to retrieve it again from the original source.
+
+Key benefits of caching include:
+* **Faster Response Times**: Cached data can be served to clients more quickly than data fetched from the original source, leading to faster response times and improved user experience.
+* **Reduced Server Load** : By serving cached data instead of fetching it from the original source, caching reduces the load on servers, databases, and other backend systems, thereby improving overall system scalability and performance.
+* **Improved Scalability** : Caching helps distribute the workload more efficiently across servers and reduces the need for additional resources to handle high traffic volumes.
+
+![caching](https://miro.medium.com/v2/resize:fit:680/0*oGWlpmZJ05JaWXQC.png)
 
 
 
