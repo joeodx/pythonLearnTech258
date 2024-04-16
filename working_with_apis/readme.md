@@ -100,7 +100,18 @@ These HTTP methods provide a standardized way for clients to interact with resou
 
 ![picture html](https://miro.medium.com/v2/resize:fit:1358/1*g7J6M-SRwWe9YrStLj0ZyQ.png)
 
+## What is stateless?
 
+
+Statelessness in the context of HTTP means that the server does not maintain any client context between requests. Each request from a client to the server is independent and self-contained, and the server does not rely on any information from previous requests when processing a new request. This design principle simplifies server implementation, improves scalability, and enables better fault tolerance.
+
+Examples of Stateless HTTP Requests : 
+* **GET Request for a Web Page** : When a client requests a web page using a GET request, the server responds with the requested page. Each GET request is independent, and the server does not need to maintain any client state between requests.
+* **GET Request for an API Endpoint** : Similarly, when a client makes a GET request to retrieve data from an API endpoint, the server processes the request based solely on the information provided in that request. There is no need for the server to remember previous requests from the same client.
+
+Examples of Stateful HTTP Requests:
+* **Login and Session Management**: When a user logs into a web application, the server typically creates a session for that user and stores session information (e.g., user authentication token) on the server. Subsequent requests from the same client may rely on this session information to authenticate the user and provide personalized content.
+* **Multi-step Workflows** : Some applications involve multi-step workflows where the state of the process is carried forward between requests. For example, in a multi-step form submission, the server needs to maintain the state of the form across multiple requests until the user completes the entire process.
 
 
 
