@@ -60,6 +60,22 @@ As for REST API guidelines, they often include best practices for designing APIs
 * Use security measures like HTTPS and authentication mechanisms to protect your API from unauthorized access.
 
 
+## What is HTTP... and how is it different to HTTPS?
+
+
+![http](https://snobmonkey.com/wp-content/uploads/2019/04/main-qimg-3f16c3d0b203e53638cf38a7a7042da1.png)
+
+<br>
+The Hypertext Transfer Protocol (HTTP) is the foundation of the World Wide Web, and is used to load webpages using hypertext links. HTTP is an application layer protocol designed to transfer information between networked devices and runs on top of other layers of the network protocol stack. A typical flow over HTTP involves a client machine making a request to a server, which then sends a response message.
+
+Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website. HTTPS is encrypted in order to increase security of data transfer. This is particularly important when users transmit sensitive data, such as by logging into a bank account, email service, or health insurance provider.
+
+HTTPS uses an encryption protocol to encrypt communications. The protocol is called Transport Layer Security (TLS), although formerly it was known as Secure Sockets Layer (SSL). This protocol secures communications by using what’s known as an asymmetric public key infrastructure. This type of security system uses two different keys to encrypt communications between two parties:
+
+* **The private key** - this key is controlled by the owner of a website and it’s kept, as the reader may have speculated, private. This key lives on a web server and is used to decrypt information encrypted by the public key.
+* **The public key** - this key is available to everyone who wants to interact with the server in a way that’s secure. Information that’s encrypted by the public key can only be decrypted by the private key.
+
+
 
 
 
