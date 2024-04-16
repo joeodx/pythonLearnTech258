@@ -1,6 +1,6 @@
 # What are API's? 
 
-![Python Logo](https://appmaster.io/api/_files/PqV7MuNwv89GrZvBd4LNNK/download/)
+![api's](https://appmaster.io/api/_files/PqV7MuNwv89GrZvBd4LNNK/download/)
 
 APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols. For example, the weather bureau’s software system contains daily weather data. The weather app on your phone “talks” to this system via APIs and shows you daily weather updates on your phone.
 
@@ -28,4 +28,11 @@ Websocket API is another modern web API development that uses JSON objects to pa
 These are the most popular and flexible APIs found on the web today. The client sends requests to the server as data. The server uses this client input to start internal functions and returns output data back to the client. Let’s look at REST APIs in more detail below.
 
 APIs are surprisingly significant in the current world as they dictate how software developers create new applications that utilize web services like Facebook, Google Maps, and many more. APIs are also great time savers. They offer a tremendous level of accessibility in many ways.
+
+## Example of a REST API in action 
+
+
+
+![api's](diagram.jpg)
+
 
