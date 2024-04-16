@@ -11,7 +11,7 @@ if len(sys.argv) > 1:  # do we have more than 1 argument (is an argument given s
         with open("example.json", "r") as jsonfile:
             json_data = json.load(jsonfile)
             print(json_data)
-            with open('output.yml', 'w') as yaml_file:
+            with open("output.yml", "w") as yaml_file:
                 yaml.dump(json_data, yaml_file, default_flow_style=False)
 
         print("JSON is valid!")
