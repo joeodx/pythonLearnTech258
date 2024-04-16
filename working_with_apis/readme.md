@@ -48,7 +48,7 @@ Example of a REST API in action :
 
 
 
-![api's](diagram.jpg)
+![api's](images/diagram.jpg)
 
 <br>
 As for REST API guidelines, they often include best practices for designing APIs that adhere to REST principles, here are a few below :
@@ -73,14 +73,14 @@ As for REST API guidelines, they often include best practices for designing APIs
 
 There is a structure for both the request and response of **HTTP** : 
 
-![html request](request.png)
+![html request](images/request.png)
 - **Request Line** : The request line contains three parts: the HTTP method, the requested resource (URI), and the HTTP version.
 - **Headers** : HTTP headers provide additional information about the request or the client itself. Headers include metadata such as content type, content length, authentication credentials, and more.
 - **Empty Line**: An empty line indicates the end of the header section and separates headers from the optional message body.
 - **Message Body**: In some types of HTTP requests, such as POST or PUT requests, key-value pairs can be included within the message body. This is common when sending data to a server, such as form submissions or JSON payloads. For example, in a POST request with form data, the key-value pairs would typically be encoded using the "application/x-www-form-urlencoded" format:
 
 
-![html response](response.png)
+![html response](images/response.png)
 - **Status Line** : Similar to the request line, the status line in the response contains three parts: the HTTP version, the status code, and a reason phrase.
 Example: HTTP/1.1 200 OK
 - **Headers** : Like in requests, response headers provide additional information about the response or the server itself. Headers include metadata such as content type, content length, server details, and more.
