@@ -29,10 +29,38 @@ These are the most popular and flexible APIs found on the web today. The client 
 
 APIs are surprisingly significant in the current world as they dictate how software developers create new applications that utilize web services like Facebook, Google Maps, and many more. APIs are also great time savers. They offer a tremendous level of accessibility in many ways.
 
-## Example of a REST API in action 
+## What is a REST API?
+
+A REST API (Representational State Transfer Application Programming Interface) is a type of API that follows the principles of REST architecture. REST is an architectural style for designing networked applications. RESTful APIs adhere to these principles, making them easy to use, scalable, and interoperable with other systems.
+
+Here are the key principles that make an API RESTful:
+* **Client-Server Architecture** : The client and server are separate entities, each with its concerns. Clients are not concerned with data storage, while servers are not concerned with user interfaces.
+
+
+* **Statelessness**: Each request from a client to the server must contain all the necessary information to understand the request. The server should not store any client context between requests. This simplifies the server implementation and improves scalability.
+
+
+* **Manipulation of Resources Through Representations** : Clients interact with resources by exchanging representations of the resource's state. For example, using HTTP methods like GET, POST, PUT, DELETE to perform CRUD operations (Create, Read, Update, Delete) on resources.
+
+<br>
+Example of a REST API in action : 
+<br> 
 
 
 
 ![api's](diagram.jpg)
+
+<br>
+As for REST API guidelines, they often include best practices for designing APIs that adhere to REST principles, here are a few below :
+
+* Use nouns to represent resources (e.g., /users for a collection of users).
+* Use HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources.
+* Version your API to allow for changes without breaking existing clients (e.g., /v1/users).
+* Document your API thoroughly, including endpoints, request and response formats, and authentication methods.
+* Use security measures like HTTPS and authentication mechanisms to protect your API from unauthorized access.
+
+
+
+
 
 
